@@ -1,3 +1,5 @@
+import streamlit
+
 def get_unique_elements(input_list):
     # Initialize a set to keep track of seen elements (for fast lookup)
     seen = set()
@@ -21,4 +23,5 @@ def get_unique_elements(input_list):
                 unique_list.append(item)
 
     # Return the list of unique elements
+
     return unique_list
